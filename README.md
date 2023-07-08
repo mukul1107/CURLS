@@ -28,8 +28,6 @@ You can refer to the following articles on **_basics of Git and Github and also 
 - Add Screenshots to help us know what this Script is all about.
  [Click here](./CONTRIBUTING.md)
 
-## **_Note: This repository is all about learning for those who are new to open-source_**
-
 ### **REACH OUT TO ME**
 
 [![twitter](https://img.shields.io/badge/twitter-0A66C2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/marshadkhn)
