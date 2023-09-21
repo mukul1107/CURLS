@@ -26,6 +26,8 @@
     "server:dev": "nodemon server.js",
     "server:prod": "node server.js",
     "test": "react-scripts test",
+    "git": "git add . && git commit -m",
+    "postgit": "git push --all",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

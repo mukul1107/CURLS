@@ -1,4 +1,5 @@
 # CURLS
+## Accepting for Hacktoberfest 2023
 **Curls is text editor combination of <b>VSCode and Notepad</b> where you can code with unlimited peoples as in a room with suggestion like in a INTERVIEW**
 
 ## Tech Used
@@ -27,6 +28,37 @@ You can refer to the following articles on **_basics of Git and Github and also 
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
  [Click here](./CONTRIBUTING.md)
+
+<h2 align=center>Project Maintainers</h2> 
+<table align="center">
+	<tr >
+    <td align="center">
+            <a href="">
+              <img src="" width="100px" alt=""/><br />
+              <sub><b></b></sub>
+            </a>
+   </td>
+    <td align="center">
+            <a href="">
+              <img src="" width="100px" alt=""/><br />
+              <sub><b></b></sub>
+            </a>
+   </td>
+    <td align="center">
+            <a href="">
+              <img src="" width="100px" alt=""/><br />
+              <sub><b></b></sub>
+            </a>
+   </td>
+   <td align="center">
+            <a href="">
+              <img src="" width="100px" alt=""/><br />
+              <sub><b></b></sub>
+            </a>
+   </td>
+  </tr>
+</table>
+
 
 ### **REACH OUT TO ME**
 
