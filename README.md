@@ -1,8 +1,8 @@
 # CURLS
 ## Accepting for Hacktoberfest 2023
-**Curls is text editor combination of <b>VSCode and Notepad</b> where you can code with unlimited people as in a room with suggestion like in a INTERVIEW**
+**Curls is a text editor that combines features of VSCode and Notepad. It allows for collaborative coding with unlimited participants in a room and offers suggestions as if in an interview**
 
-## Tech Used
+## Techstack Used
 - **HTML**
 - **Javascript**
 - **CSS**
