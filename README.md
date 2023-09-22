@@ -51,9 +51,9 @@ You can refer to the following articles on **_basics of Git and Github and also 
             </a>
    </td>
    <td align="center">
-            <a href="">
-              <img src="" width="100px" alt=""/><br />
-              <sub><b></b></sub>
+            <a href="https://github.com/jd984">
+              <img src="https://avatars.githubusercontent.com/u/117572183?v=4" width="100px" alt=""/><br />
+              <sub><b>jd984</b></sub>
             </a>
    </td>
   </tr>
