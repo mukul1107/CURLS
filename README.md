@@ -33,21 +33,21 @@ You can refer to the following articles on **_basics of Git and Github and also 
 <table align="center">
 	<tr >
     <td align="center">
-            <a href="">
-              <img src="" width="100px" alt=""/><br />
-              <sub><b></b></sub>
+            <a href="https://github.com/marshadkhn">
+              <img src="https://avatars.githubusercontent.com/u/80325579?v=4" width="100px" alt=""/><br />
+              <sub><b>marshadkhn</b></sub>
             </a>
    </td>
     <td align="center">
-            <a href="">
-              <img src="" width="100px" alt=""/><br />
-              <sub><b></b></sub>
+            <a href="https://github.com/geeky-sambhav">
+              <img src="https://avatars.githubusercontent.com/u/83087385?v=4" width="100px" alt=""/><br />
+              <sub><b>geeky-sambhav</b></sub>
             </a>
    </td>
     <td align="center">
-            <a href="">
-              <img src="" width="100px" alt=""/><br />
-              <sub><b></b></sub>
+            <a href="https://github.com/AakashRaj20">
+              <img src="https://avatars.githubusercontent.com/u/103671752?v=4" width="100px" alt=""/><br />
+              <sub><b>AakashRaj20</b></sub>
             </a>
    </td>
    <td align="center">
