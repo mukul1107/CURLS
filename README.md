@@ -1,37 +1,60 @@
-# CURLS
-## Accepting for Hacktoberfest 2023
-**Curls is text editor combination of <b>VSCode and Notepad</b> where you can code with unlimited peoples as in a room with suggestion like in a INTERVIEW**
+![GitHub repo size](https://img.shields.io/github/repo-size/marshadkhn/CURLS) 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square)]([https://gitpod.io/#https://github.com/axios/axios](https://gitpod.io/start/?not_found=true#marshadkhn-curls-fx3wgwgnsyp))
 
-## Tech Used
-- **HTML**
-- **Javascript**
-- **CSS**
-- **REACT**
-- **WEB-SOCKETS**
+
+
+
+<p align="center">
+ <picture>
+	<img src="https://github.com/geeky-sambhav/CURLS/assets/83087385/27feb8e8-b8b7-4b63-87c2-5cafc269b7ab" width="400">
+ 
+ </picture>
+
+
+
+</p>
+
+## Accepting contributions for Hacktoberfest 2023 🥳🎉
+# What is CURLS?
+
+Curls is a cutting-edge text editor that effortlessly integrates the power of VSCode with the simplicity of Notepad. Tailored for team collaboration, it enables real-time coding with countless participants in one shared space. With its intuitive, interview-style suggestions, Curls elevates the coding experience, making it both efficient and insightful.
+
+## Techstack 
+
+Curls is built using the following technologies:
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [ReactJs](https://react.dev/)
+- [WEB-SOCKETS](https://websockets.readthedocs.io/en/stable/)
   
-<h2 align=center> 👨🏻‍💻 How to get started? </h2> 
+## 🚀 How to get started?
 
-You can refer to the following articles on **_basics of Git and Github and also contact the Project Mentors, in case you are stuck_**:
-
+To contribute to CURLS, you should be familiar with some basics of Git and GitHub. In case you're new to this, refer to the articles below:
 - [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 - [Cloning a Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 - [Getting started with Git and GitHub](https://www.youtube.com/watch?v=apGV9Kg7ics&t=1878s)
 
-<h2 align=center> 📝 How to Contribute? </h2>  
+## 📝 How to Contribute?
+- Browse through the repository thoroughly.
+- Check out the Existing Issues or create your own.
+- Wait for the Issue to be assigned to you, after which you can begin working on it.
+- Fork the repository and create a new branch for your issue.
+- Create a Pull Request. It will be reviewed, and feedback may be provided.
+- Do add screenshots to showcase the features or changes you've introduced. For more details on contributing, [Click here](./CONTRIBUTING.md).
 
+## 📝 Contributing through Gitpod
 
-- Go through the repository completely!
-- Take a look at the Existing Issues or create your own Issues!
-- Wait for the Issue to be assigned to you after which you can start working on it.
-- Fork the Repo and create a Branch for any Issue that you are working upon.
-- Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
-- Add Screenshots to help us know what this Script is all about.
- [Click here](./CONTRIBUTING.md)
+In the cloud-free development environment which will have all the dependencies you need (for example MongoDB).
 
-<h2 align=center>Project Maintainers</h2> 
+[![Open Curls in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)]([https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop](https://t.co/kxIVnl0qAD))
+
+Read more in the official documentation - https://biodrop.io/docs/environments/gitpod
+
+## Project Maintainers
 <table align="center">
-	<tr >
+	<tr>
     <td align="center">
             <a href="https://github.com/marshadkhn">
               <img src="https://avatars.githubusercontent.com/u/80325579?v=4" width="100px" alt=""/><br />
@@ -59,9 +82,12 @@ You can refer to the following articles on **_basics of Git and Github and also 
   </tr>
 </table>
 
+## 🤝 Community Pledge
+We are deeply committed to fostering a community where every participant feels valued and free from harassment. We solemnly pledge to always act in a manner that promotes an open, welcoming, diverse, and inclusive environment for everyone involved.
 
-### **REACH OUT TO ME**
+## ❤️ Support
 
-[![twitter](https://img.shields.io/badge/twitter-0A66C2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/marshadkhn)
+Don't forget to leave a star ⭐️. Its free 😉
+
 
 
