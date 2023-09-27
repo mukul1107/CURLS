@@ -15,3 +15,14 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+
+var cursor = document.querySelector("#cursor");
+
+
+
+document.addEventListener("mousemove", function (mouse){
+  cursor.style.left = mouse.x+"px";
+  cursor.style.top = mouse.y+"px";
+})

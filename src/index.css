@@ -8,3 +8,18 @@ body {
    background: #1c1e29;
 }
 
+
+#cursor{
+  width: 15px;
+  height: 15px;
+  background-color: #d2e0fbc1;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+}
+
+@media (hover: none) {
+  #cursor {
+    display: none; 
+  }
+}

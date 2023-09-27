@@ -1,30 +1,30 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable no-unused-vars */
-
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import Client from '../componets/Client';
 import Editor from '../componets/editor';
 import { initSocket } from '../socket';
-import ACTIONS from "../Actions"
+import ACTIONS from '../Actions';
 import { useLocation } from 'react-router-dom';
-const editorPage = () => {
-  const socketRef = useRef(null);
-  const loaction = useLocation()
-  useEffect(() => {
-    const init = async () => {
-        socketRef.current = await initSocket();
-        socketRef.current.emit(ACTIONS.JOIN, {
-          roomId,
-          username: loaction.state.username,
-        })
-    }
-    init();
-  }, []);
+
+const EditorPage = () => {
+  const location = useLocation();
   const [clients, setClients] = useState([
     { socketId: 1, username: 'Rakesh k' },
     { socketId: 2, username: 'Arshad k' },
-    { socketId: 2, username: 'Arshad k' }
   ]);
+
+  useEffect(() => {
+    const init = async () => {
+      const socketRef = await initSocket();
+      socketRef.emit(ACTIONS.JOIN, {
+        roomId,
+        username: location.state.username,
+      });
+    };
+    init();
+  }, [location.state.username]);
+
+  const roomId = '1'; // Replace with your room ID
+
   return (
     <div className="mainWrapper">
       <div className="aside">
@@ -46,7 +46,7 @@ const editorPage = () => {
         <Editor />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default editorPage
+export default EditorPage;
