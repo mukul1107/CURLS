@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 import { toast } from 'react-hot-toast';
+import { useNavigate } from "react-router-dom";
+
 
 const Home = () => {
   const [roomId, setRoomId] = useState('');
   const [username, setUsername] = useState('');
+  const navigate = useNavigate();
 
   const createNewId = () => {
     const id = uuidV4();
@@ -19,6 +22,14 @@ const Home = () => {
   const handleUsernameChange = (e) => {
     setUsername(e.target.value);
   };
+
+  const joinRoom = () => {
+    console.log("Join button clicked.")
+    roomId && username
+      ? navigate(`/editor/${roomId}`, { state: { username } })
+      : toast.error("Please enter both ROOM ID and USERNAME.");
+  };
+  
 
   return (
     <div className="homePageWrapper">
@@ -40,7 +51,7 @@ const Home = () => {
             className="inputBox"
             placeholder="USERNAME:"
           />
-          <button className="btn joinbtn">JOIN</button>
+          <button onClick={joinRoom} className="btn joinbtn">JOIN</button>
           <span className="createInfo">
             Don't Have any invitation? &nbsp;
             <button onClick={createNewId} className="newRoom-btn">
