@@ -67,18 +67,6 @@ Read more in the official documentation - https://biodrop.io/docs/environments/g
               <sub><b>geeky-sambhav</b></sub>
             </a>
    </td>
-    <td align="center">
-            <a href="https://github.com/AakashRaj20">
-              <img src="https://avatars.githubusercontent.com/u/103671752?v=4" width="100px" alt=""/><br />
-              <sub><b>AakashRaj20</b></sub>
-            </a>
-   </td>
-   <td align="center">
-            <a href="https://github.com/jd984">
-              <img src="https://avatars.githubusercontent.com/u/117572183?v=4" width="100px" alt=""/><br />
-              <sub><b>jd984</b></sub>
-            </a>
-   </td>
   </tr>
 </table>
 
