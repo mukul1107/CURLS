@@ -21,11 +21,12 @@ const editorPage = () => {
     }
     init();
   }, []);
+  
   const [clients, setClients] = useState([
     { socketId: 1, username: 'Rakesh k' },
     { socketId: 2, username: 'Arshad k' },
-    { socketId: 2, username: 'Arshad k' }
   ]);
+
   return (
     <div className="mainWrapper">
       <div className="aside">
