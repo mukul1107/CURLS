@@ -6,17 +6,18 @@ import Client from '../componets/Client';
 import Editor from '../componets/editor';
 import { initSocket } from '../socket';
 import ACTIONS from "../Actions"
-import { useLocation } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 const editorPage = () => {
+  const { roomId } = useParams();
   const socketRef = useRef(null);
   const loaction = useLocation()
   useEffect(() => {
     const init = async () => {
-        socketRef.current = await initSocket();
-        socketRef.current.emit(ACTIONS.JOIN, {
-          roomId,
-          username: loaction.state.username,
-        })
+      socketRef.current = await initSocket();
+      socketRef.current.emit(ACTIONS.JOIN, {
+        roomId,
+        username: loaction.state.username,
+      })
     }
     init();
   }, []);
