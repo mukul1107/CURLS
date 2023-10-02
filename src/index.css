@@ -8,3 +8,19 @@ body {
    background: #1c1e29;
 }
 
+/* Mousemove cursor effect*/
+#cursor{
+  width: 15px;
+  height: 15px;
+  background-color: #d2e0fbc1; /* Change the color accordingly*/
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+}
+
+/*Hides the mouseMove effect and target devices without a mouse (touch devices)    */
+@media (hover: none) {
+  #cursor {
+    display: none; 
+  }
+}

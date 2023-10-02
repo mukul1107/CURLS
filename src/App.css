@@ -1,8 +1,40 @@
+<<<<<<< HEAD
 /* General styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+=======
+/* Variables */
+:root {
+  --primary-color: #004aad;
+  --secondary-color: #3498db;
+  --background-color: #282a36;
+  --text-color: white;
+  --font-family: 'Montserrat', sans-serif;
+  --font-weight-bold: 900;
+}
+
+/* Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+/* Common Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+>>>>>>> dev
 }
 
 /* Home Page */
@@ -11,13 +43,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--text-color);
   height: 100vh;
+  background-color: var(--background-color);
 }
 
 .fromPageWrapper {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   border-radius: 2%;
   padding: 1%;
   background-color: #282a36;
@@ -29,12 +63,28 @@ body {
 .logo-main {
   width: 35%;
   margin-left: 5%;
+=======
+  padding: 0 0 1% 0;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+.logo-main {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  max-width: 200px;  
+  margin: -20px 75px;
+>>>>>>> dev
 }
 
 .inputGroup {
   display: flex;
   flex-direction: column;
   margin: 0 10%;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
 }
 
 .mainLabel {
@@ -42,13 +92,21 @@ body {
 }
 
 .inputBox {
+<<<<<<< HEAD
   border: 1px solid #ccc;
+=======
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: 15px;
+  border: 1px transparent;
+>>>>>>> dev
   border-radius: 5px;
   padding: 1.2%;
   margin: 1% 0;
 }
 
 .joinbtn {
+<<<<<<< HEAD
   margin: 1% 0 1% auto;
   border-radius: 5px;
   font-weight: bold;
@@ -61,17 +119,40 @@ body {
 
 .joinbtn:hover {
   background-color: #00307a;
+=======
+  margin: 1% 0;
+  border-radius: 5px;
+  font-weight: var(--font-weight-bold);
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  /* Adjust padding for better aesthetics */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.joinbtn:hover {
+  background-color: #00337f;
+  /* Darker shade of primary color */
+  color: white;
+>>>>>>> dev
 }
 
 .bottomName {
-  color: #004aad;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 .createNewBtn {
+<<<<<<< HEAD
   color: #004aad;
   text-align: center;
   margin-top: 10px;
+=======
+  color: var(--primary-color);
+>>>>>>> dev
 }
 
 /* Main Wrapper */
@@ -82,7 +163,10 @@ body {
   height: 100vh;
 }
 
+<<<<<<< HEAD
 /* Aside */
+=======
+>>>>>>> dev
 .aside {
   background-color: #1c1e29;
   padding: 16px;
@@ -112,7 +196,11 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+<<<<<<< HEAD
   font-weight: bold;
+=======
+  font-weight: var(--font-weight-bold);
+>>>>>>> dev
 }
 
 .userName {
@@ -124,18 +212,28 @@ body {
   padding-bottom: 10px;
 }
 
+<<<<<<< HEAD
 /* Buttons */
+=======
+>>>>>>> dev
 .copybtn,
 .leavebtn {
   margin: 2% 4%;
   border-radius: 5px;
+<<<<<<< HEAD
   padding: 1% 2%;
   font-weight: bold;
+=======
+  padding: 3.4% 1%;
+  border: transparent;
+  font-weight: var(--font-weight-bold);
+>>>>>>> dev
   cursor: pointer;
   transition: background-color 0.3s;
   border: none;
 }
 
+<<<<<<< HEAD
 .copybtn {
   background: #004aad;
   color: white;
@@ -152,12 +250,53 @@ body {
 }
 
 /* CodeMirror */
+=======
+.leavebtn {
+  background: var(--primary-color);
+}
+
+>>>>>>> dev
 .CodeMirror {
   min-height: calc(100vh - 20px);
   font-size: 16px;
   line-height: 1.6;
   padding-top: 20px;
+<<<<<<< HEAD
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f7f7f7;
 }
+=======
+}
+
+.newRoom-btn {
+  display: inline-flex; 
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px; 
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.newRoom-btn:hover {
+  background-color: #2980b9; /* Slightly darker shade of the secondary color */
+  color: white;
+}
+
+.createInfo {
+  font-size: 18px; 
+  margin-top: 20px; 
+}
+
+.createInfo a {
+  margin-left: 10px; 
+}
+>>>>>>> dev
