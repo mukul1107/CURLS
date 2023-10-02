@@ -42,7 +42,6 @@ body {
 
 .fromPageWrapper {
   display: flex;
-  border-radius: 2%;
   flex-direction: column;
   padding: 0 0 1% 0;
   background-color: var(--background-color);
@@ -76,7 +75,7 @@ body {
   font-size: 15px;
   border: 1px transparent;
   border-radius: 5px;
-  padding: 1.9%;
+  padding: 1.2%;
   margin: 1% 0;
 }
 
@@ -112,8 +111,9 @@ body {
 /* Main Wrapper */
 .mainWrapper {
   display: grid;
-  height: 100vh;
   grid-template-columns: 230px 1fr;
+  grid-gap: 20px;
+  height: 100vh;
 }
 
 .aside {
@@ -130,7 +130,8 @@ body {
 
 .logoImg {
   width: 35%;
-  margin-left: 28%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .clientList {
@@ -164,6 +165,8 @@ body {
   border: transparent;
   font-weight: var(--font-weight-bold);
   cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
 }
 
 .leavebtn {
@@ -172,7 +175,7 @@ body {
 
 .CodeMirror {
   min-height: calc(100vh - 20px);
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.6;
   padding-top: 20px;
 }
