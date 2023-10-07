@@ -1,17 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import Client from '../componets/Client';
-import Editor from '../componets/editor';
-import { initSocket } from '../socket';
-import ACTIONS from '../Actions';
-import { useLocation } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import Client from "../components/Client";
+import Editor from "../components/editor";
+import { initSocket } from "../socket";
+import ACTIONS from "../Actions";
+import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import copy from "copy-to-clipboard";
 
 const EditorPage = () => {
+  const { roomId } = useParams(); // Correct usage of useParams
+
   const location = useLocation();
   const [clients, setClients] = useState([
-    { socketId: 1, username: 'Rakesh k' },
-    { socketId: 2, username: 'Arshad k' },
+    { socketId: 1, username: "Rakesh k" },
+    { socketId: 2, username: "Arshad k" },
   ]);
 
+  const [style, changeStyle] = useState("");
   useEffect(() => {
     const init = async () => {
       const socketRef = await initSocket();
@@ -21,10 +26,12 @@ const EditorPage = () => {
       });
     };
     init();
-  }, [location.state.username]);
+  }, [location.state.username, roomId]); // Include roomId in the dependency array
 
-  const roomId = '1'; // Replace with your room ID
-
+  function copyRoomId() {
+    changeStyle("copied");
+    copy(roomId); // Use roomId here
+  }
   return (
     <div className="mainWrapper">
       <div className="aside">
@@ -39,7 +46,9 @@ const EditorPage = () => {
             ))}
           </div>
         </div>
-        <button className="btn copybtn">COPY ROOM ID</button>
+        <button onClick={copyRoomId} className="btn copybtn " id={style}>
+          {style === "copied" ? "Copied" : "Copy Room ID"}
+        </button>
         <button className="btn leavebtn">LEAVE</button>
       </div>
       <div className="editorWrap">
