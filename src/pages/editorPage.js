@@ -6,11 +6,16 @@ import ACTIONS from "../Actions";
 import { useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import copy from "copy-to-clipboard";
-<
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-hot-toast";
 
 const EditorPage = () => {
+  const navigate = useNavigate();
   const { roomId } = useParams(); // Correct usage of useParams
-
+  const onLeave = ()=>{
+    navigate("/");
+    toast.success('YOU LEFT ROOM');
+  }
 
   const location = useLocation();
   const [clients, setClients] = useState([
@@ -53,7 +58,7 @@ const EditorPage = () => {
         <button onClick={copyRoomId} className="btn copybtn " id={style}>
           {style === "copied" ? "Copied" : "Copy Room ID"}
         </button>
-        <button className="btn leavebtn">LEAVE</button>
+        <button className="btn leavebtn" onClick={()=>{onLeave()}}>LEAVE</button>
       </div>
       <div className="editorWrap">
         <Editor />
