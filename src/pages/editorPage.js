@@ -6,10 +6,11 @@ import ACTIONS from "../Actions";
 import { useLocation } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import copy from "copy-to-clipboard";
-
+<
 
 const EditorPage = () => {
-  const getRoomId = useParams("roomId");
+  const { roomId } = useParams(); // Correct usage of useParams
+
 
   const location = useLocation();
   const [clients, setClients] = useState([
@@ -27,13 +28,13 @@ const EditorPage = () => {
       });
     };
     init();
-  }, [location.state.username]);
 
-  const roomId = "1"; // Replace with your room ID
+  }, [location.state.username, roomId]); // Include roomId in the dependency array
 
   function copyRoomId() {
     changeStyle("copied");
-    copy(getRoomId.roomId);
+    copy(roomId); // Use roomId here
+
   }
   return (
     <div className="mainWrapper">
