@@ -210,3 +210,12 @@ body {
 .createInfo a {
   margin-left: 10px; 
 }
+<<<<<<< HEAD
+=======
+
+
+#copied{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+>>>>>>> 9913eff594f3801d87aec5b7c7421e2e604b49d3

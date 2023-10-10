@@ -61,7 +61,11 @@ const Home = () => {
         </div>
       </div>
       <h4>
+<<<<<<< HEAD
         Made with 💛 <a href="https://github.com/proudlydumb" className="bottomName">ARSHAD</a>
+=======
+        Made with 💛 <a href="https://github.com/marshadkhn" className="bottomName">ARSHAD</a>
+>>>>>>> 9913eff594f3801d87aec5b7c7421e2e604b49d3
       </h4>
     </div>
   );
